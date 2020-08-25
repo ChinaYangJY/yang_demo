@@ -1,0 +1,11 @@
+server:
+  port: 8686
+  servlet:
+    context-path: /yang
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:p6spy:mysql://49.233.153.221:3306/yang?characterEncoding=UTF-8&useUnicode=true&useSSL=false&serverTimezone=Asia/Shanghai
+    name: root
+    password: feng
+
