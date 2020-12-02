@@ -5,7 +5,11 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:p6spy:mysql://49.233.153.221:3306/yang?characterEncoding=UTF-8&useUnicode=true&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:p6spy:mysql://8.131.71.173:3306/test?characterEncoding=UTF-8&useUnicode=true&useSSL=false&serverTimezone=Asia/Shanghai
     name: root
     password: feng
-
+  redis:
+    host: 8.131.71.173
+    port: 6379
+    password: feng
+    timeout: 5000
